@@ -79,8 +79,9 @@ sudo apt install python3-pyqt5.qtsvg python3-rdflib pyqt5-dev-tools \
 Under Fedora, you can use the following command instead:
 ```
 sudo dnf install python3-qt5-devel python3-rdflib \
-  file-devel liblo-devel alsa-lib-devel pulseaudio-libs-devel libX11-devel
-  gtk2-devel gtk3-devel qt4-devel qt5-devel fluidsynth-devel libsndfile-devel
+  file-devel liblo-devel alsa-lib-devel pulseaudio-libs-devel libX11-devel \
+  gtk2-devel gtk3-devel qt4-devel qt5-devel fluidsynth-devel libsndfile-devel \
+  SDL2-devel
 ```
 
 ## BUILD BRIDGES (Experimental)
