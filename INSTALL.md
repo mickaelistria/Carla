@@ -100,7 +100,11 @@ Does not work with clang. (if you discover why, please let me know!)
 
 ### Windows plugins (via Wine)
 
-Requires a mingw compiler, and winegcc.
+Requires a mingw compiler, and winegcc, glibc-devel and wine-devel.
+Under Fedora,
+```
+sudo dnf install glibc-devel wine-devel
+```
 
 First, we build the Windows bridges using mingw, like this: (adjust as needed)
 ```
